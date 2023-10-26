@@ -42,6 +42,11 @@ font-weight: 500;
     background-color: #2b0c0c;
 }
 
+.nav-login-cart{
+    display: flex;
+    align-items: center;
+    gap: 45px;
+}
 .nav-login-cart button{
     width: 100px;
     height: 30px;
@@ -57,4 +62,17 @@ cursor: pointer;
 }
 .nav-login-cart button :active{
     color: blue;
+}
+.nav-cart-count{
+    width: 22px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -35px;
+    margin-left: -55px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
 }
