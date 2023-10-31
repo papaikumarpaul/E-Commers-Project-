@@ -18,7 +18,7 @@ import './Hero.css';
             </div>
             <div className="hero-latest-btn">
                 <div>Latest Collection</div>
-                <img src={arrow_icon} alt=''/>
+                <img src={arrow_icon} alt='arrow'/>
             </div>
         </div>
        <div className="hero-right">
