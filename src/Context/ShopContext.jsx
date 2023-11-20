@@ -3,7 +3,7 @@ import all_product from '../Components/Assets/all_product';
 
 
 
- export const ShopContext=createContext(all_product);
+ export const ShopContext=createContext(null);
 
 
 
