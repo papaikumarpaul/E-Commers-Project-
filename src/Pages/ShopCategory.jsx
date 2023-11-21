@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react';
 import dropdown from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Item/Item';
 import { ShopContext } from '../Context/ShopContext';
-
+import './Css/ShopCategory.css';
 
 
 
