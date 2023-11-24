@@ -43,6 +43,9 @@ useEffect(()=>{
        }
        
       </div>
+      <div className="shopcategory-loadmore">
+        exploer
+      </div>
     </div>
   )
 }
