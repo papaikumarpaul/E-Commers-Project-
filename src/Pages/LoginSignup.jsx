@@ -13,7 +13,7 @@ const LoginSignup = () => {
         </div>
         <button>Continue</button>
         <p className="loginsingup-login">
-          Already have an accout?<span>Login here</span>
+          Already have an accout ? <span>Login here</span>
         </p>
         <div className="loginsingup-agree">
           <input type="checkbox" name="" id="" />

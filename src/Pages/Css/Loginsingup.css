@@ -2,18 +2,29 @@
     width: 100%;
     height: 80vh;
     background: #fce3fe;
-    padding-top: 10px;
+    padding-top: 100px;
 }
 .loginsingup-container{
     width: 580px;
     height: 600px;
     background: white;
     margin: auto;
-    padding: 450px 60px;
+    padding: 40px 60px;
 
 }
 .loginsingup-container h1{
     margin: 20px 0;
+}
+.loginsingup-container button{
+    margin-top: 32px;
+    width: 580px;
+    height: 60px;
+    color: rgb(248, 242, 242);
+    background: red;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
 }
 .loginsingup-fildes{
     display: flex;
@@ -30,4 +41,24 @@ border: 1px  solid #c9c9c9;
 outline: none;
 color: #5c5c5c;
 font-size: 18px;
+}
+
+.loginsingup-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.loginsingup-login span{
+    color: #85837a;
+    font-weight: 500;
+}
+.loginsingup-agree {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+  gap: 20px;
+  color: #5c5c5c;
+  font-size: 18px;
+  font-weight: 500;
 }
