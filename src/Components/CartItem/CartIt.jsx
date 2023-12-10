@@ -43,6 +43,7 @@ export const CartIt = () => {
         return null;
       })}
 
+{/*  error */}
       <div className="cartitem-down">
         <div className="cartitems-total">
           <h1>Cart Totals</h1>
