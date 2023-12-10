@@ -5,9 +5,9 @@ import startIcon from "../Assets/star_icon.png";
 import "./ProductDisplay.css";
 const ProductDisplay = (props) => {
   const { product } = props;
-  const { addtoCart } = useContext(ShopContext);
+  console.log(product.id)
 
-  // console.log(addToCart);
+  const {addTocart} = useContext(ShopContext);
 
   return (
     <div className="productdisplay">
@@ -51,11 +51,13 @@ const ProductDisplay = (props) => {
             <div>XXL</div>
           </div>
         </div>
-        <button onClick={(id)=>{
-          console.log(id)
-          console.log(product.id)
-          // addtoCart(product.id)
-          }}>ADD TO CART</button>
+        <button
+          onClick={() => {
+            addTocart(product.id);
+          }}
+        >
+          ADD TO CART
+        </button>
         <p className="productsdisplay-right-category">
           <span>Category:</span>Woman,T-shirt,Crop Top
         </p>
