@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react';
+import React, { useContext } from 'react';
 import dropdown from '../Components/Assets/dropdown_icon.png';
 import Item from '../Components/Item/Item';
 import { ShopContext } from '../Context/ShopContext';
@@ -11,13 +11,6 @@ const {all_product}=useContext(ShopContext);
 
 
 
-useEffect(()=>{
-  fetch(all_product).then((res)=>{
-    return res.json();
-  }).then((data)=>{
-    console.log(data);
-  })
-})
 
   return (
     

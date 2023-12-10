@@ -5,7 +5,8 @@ import startIcon from "../Assets/star_icon.png";
 import "./ProductDisplay.css";
 const ProductDisplay = (props) => {
   const { product } = props;
-  console.log(product.id)
+  // console.log(product.id)
+
 
   const {addTocart} = useContext(ShopContext);
 
